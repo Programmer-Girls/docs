@@ -9,7 +9,7 @@ Antes de começar, é importante saber que toda documentação oficial do JavaSc
 
 O jeito mais fácil de rodar JavaScript é apertando F12 no seu navegador, acessando a aba "Console" e escrevendo seu código.
 
-![alt text](assets/images/rodando-js.png)
+![rodando js](assets/images/rodando-js.png)
 
 ## [Variáveis e Tipos de Dados](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Data_structures)
 
@@ -45,4 +45,7 @@ No JavaScript existem 7 tipos de dados:
 
 Para checar o tipo de um dado, use a função `typeof`.
 
-![alt text](assets/images/typeof.png)
+![typeof](assets/images/typeof.png)
+
+> [!NOTE]
+> Dica da mamãe Fufu, não precisa aprender tudo de uma vez, aprenda quando precisar da coisa específica. Por exemplo, só lembre que os tipos existem e quando precisar de algum, aí sim vá ler a documentação oficial.
