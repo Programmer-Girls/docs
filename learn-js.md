@@ -48,4 +48,37 @@ Para checar o tipo de um dado, use a função `typeof`.
 ![typeof](assets/images/typeof.png)
 
 > [!NOTE]
-> Dica da mamãe Fufu, não precisa aprender tudo de uma vez, aprenda quando precisar da coisa específica. Por exemplo, só lembre que os tipos existem e quando precisar de algum, aí sim vá ler a documentação oficial.
+> Dica da mamãe, não precisa aprender tudo de uma vez, aprenda quando precisar da coisa específica. Só lembre que os tipos existem e quando precisar de algum, aí sim vá ler a documentação oficial.
+
+### Funções
+
+As funções são parecidas com formulas matemáticas. Você passa um valor para a função e ela retorna um valor. Ou uma forma de bolo, você passa os ingredientes e ela retorna o bolo pronto.
+
+```js
+// "Declaração de função"
+function soma(a, b) {
+  return a + b;
+}
+
+// "Expressão de função"
+const bolo = function () {
+  return "🎂";
+};
+
+const boloMorango = () => {
+  return "🍓🎂";
+};
+
+const boloChocolate = () => "🍫🎂";
+
+const boloCustom = (sabor) => sabor + "🎂";
+
+console.log(soma(1, 2)); // 3
+console.log(bolo()); // 🎂
+console.log(boloChocolate()); // 🍫🎂
+console.log(boloMorango()); // 🍓🎂
+console.log(boloCustom("🍉")); // 🍉🎂
+```
+
+> [!NOTE]
+> Se quiser saber a diferença entre declaração e expressão de função, procure `js function declaration vs function expression` no Google.
