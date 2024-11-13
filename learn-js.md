@@ -17,10 +17,10 @@ O jeito mais fácil de rodar JavaScript é apertando F12 no seu navegador, acess
 console.log("Olá, mundo!");
 ```
 
-Outro jeito é usar o [Node.js](#nodejs), que é um ambiente de execução de JavaScript que roda no Servidor.
-
 > [!NOTE]
 > `console.log` é uma função que imprime uma mensagem no console do navegador.
+
+Outro jeito é usar o [Node.js](#nodejs), que é um ambiente de execução de JavaScript que roda no Servidor.
 
 ## [Variáveis e Tipos de Dados](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Data_structures)
 
