@@ -2,6 +2,8 @@
 
 Antes de começar, é importante saber que toda documentação oficial do JavaScript fica no site [MDN Web Docs](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) e a chave para aprender qualquer coisa é ler a documentação oficial da coisa que você quer aprender. Todo guia ou tutorial que você encontrar na internet é uma tentativa de explicar a documentação oficial em um formato mais fácil de entender para as pessoas.
 
+> [!NOTE]
+> O Objetivo desse guia é ser um guia para aprender JavaScript e não um guia para aprender programação.
 > [!IMPORTANT]
 > O site existe em português, mas a documentação oficial é em inglês. Usaremos a versão em inglês por ser mais completa e atualizada.
 
