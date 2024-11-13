@@ -17,6 +17,8 @@ O jeito mais fácil de rodar JavaScript é apertando F12 no seu navegador, acess
 console.log("Olá, mundo!");
 ```
 
+Outro jeito é usar o [Node.js](#nodejs), que é um ambiente de execução de JavaScript que roda no Servidor.
+
 > [!NOTE]
 > `console.log` é uma função que imprime uma mensagem no console do navegador.
 
@@ -40,7 +42,7 @@ idade = 21;
 
 ### Tipos de Dados
 
-No JavaScript existem 7 tipos de dados:
+No JavaScript existem alguns tipos de dados, uns são primitivos e outros são compostos:
 
 - [undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#undefined_type)
 - [null](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#null_type)
@@ -137,7 +139,7 @@ console.log(
 ); // { nome: "Alice", idade: 20 } "Alice" 20 undefined
 ```
 
-## [Loops/Iteradores](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration) e [Controle de Fluxo](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling)
+## [Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration) e [Controle de Fluxo](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling)
 
 ### Condicionais
 
@@ -192,7 +194,17 @@ console.log(listaAoQuadrado); // [1, 4, 9]
 > `forEach` e `map` são considerados estilos declarativos ou funcionais, você diz o que fazer.
 > Programação funcional é muito melhor :3 ~~talvez seja mais difícil de aprender~~.
 
-### Links Úteis
+## Node.js
+
+No Node.js, a forma de escrever é a mesma, ainda é JavaScript. A diferença é que o Node roda no servidor e não no navegador. Então, tudo que você pode fazer no navegador, não vai funcionar no Node. Por exemplo, coisas envolvendo o [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model) como `document.querySelector` não vai funcionar.
+
+O Node.js tem suas próprias funções, como por exemplo, acessar o sistema de arquivos, criar servidores, etc. Sua documentação oficial fica no site [Node.js](https://nodejs.org/en/docs).
+
+## Links Úteis
 
 - [Declarative vs Imperative Programming](https://dev.to/ruizb/declarative-vs-imperative-4a7l)
 - [Modern JS Cheatsheet](https://github.com/mbeaudru/modern-js-cheatsheet)
+- [Node.js](https://nodejs.org)
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [JavaScript.info](https://javascript.info)
+- [Node Installation](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs)
