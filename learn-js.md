@@ -192,4 +192,7 @@ console.log(listaAoQuadrado); // [1, 4, 9]
 > `forEach` e `map` são considerados estilos declarativos ou funcionais, você diz o que fazer.
 > Programação funcional é muito melhor :3 ~~talvez seja mais difícil de aprender~~.
 
-[Declarative vs Imperative Programming](https://dev.to/ruizb/declarative-vs-imperative-4a7l)
+### Links Úteis
+
+- [Declarative vs Imperative Programming](https://dev.to/ruizb/declarative-vs-imperative-4a7l)
+- [Modern JS Cheatsheet](https://github.com/mbeaudru/modern-js-cheatsheet)
