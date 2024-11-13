@@ -1,0 +1,49 @@
+# Aprendendo JavaScript
+
+Antes de começar, é importante saber que toda documentação oficial do JavaScript fica no site [MDN Web Docs](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) e a chave para aprender qualquer coisa é ler a documentação oficial da coisa que você quer aprender. Todo guia ou tutorial que você encontrar na internet é uma tentativa de explicar a documentação oficial em um formato mais fácil de entender para as pessoas.
+
+#### Nota
+
+O site existe em português, mas a documentação oficial é em inglês. Usaremos a versão em inglês por ser mais completa e atualizada.
+
+## Rodando JavaScript
+
+O jeito mais fácil de rodar JavaScript é apertando F12 no seu navegador, acessando a aba "Console" e escrevendo seu código.
+
+![alt text](assets/images/rodando-js.png)
+
+
+## [Variáveis e Tipos de Dados](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Data_structures)
+
+### Declaração de Variáveis
+As palavras-chave `let`, `const` ou `var` são usadas para declarar variáveis. `var` é a forma antiga de declarar variáveis, `let` e `const` são a forma moderna. `const` é usado para declarar constantes e `let` para declarar variáveis. Por via de regra, sempre use `const` e em casos específicos use `let`.
+
+```js
+let nome = "Alicx";
+const idade = 20;
+
+// Isso é válido
+nome = "Alice";
+
+// Isso não é válido
+// Uncaught TypeError: Assignment to constant variable.
+idade = 21;
+```
+
+### Tipos de Dados
+
+No JavaScript existem 7 tipos de dados:
+
+- [undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#undefined_type)
+- [null](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#null_type)
+- [boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#boolean_type)
+- [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#string_type)
+- [number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#number_type)
+- [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#object_type)
+- [symbol](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#symbol_type)
+- [bigint](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#bigint_type)
+- [function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+
+Para checar o tipo de um dado, use a função `typeof`.
+
+![alt text](assets/images/typeof.png)
