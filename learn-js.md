@@ -22,6 +22,8 @@ console.log("Olá, mundo!");
 
 Outro jeito é usar o [Node.js](#nodejs), que é um ambiente de execução de JavaScript que roda no Servidor.
 
+---
+
 ## [Variáveis e Tipos de Dados](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Data_structures)
 
 ### Declaração de Variáveis
@@ -139,6 +141,8 @@ console.log(
 ); // { nome: "Alice", idade: 20 } "Alice" 20 undefined
 ```
 
+---
+
 ## [Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration) e [Controle de Fluxo](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling)
 
 ### Condicionais
@@ -193,6 +197,8 @@ console.log(listaAoQuadrado); // [1, 4, 9]
 > `for` é considerado um estilo imperativo, você diz como fazer.
 > `forEach` e `map` são considerados estilos declarativos ou funcionais, você diz o que fazer.
 > Programação funcional é muito melhor :3 ~~talvez seja mais difícil de aprender~~.
+
+---
 
 ## Node.js
 
