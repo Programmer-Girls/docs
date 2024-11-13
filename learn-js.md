@@ -206,6 +206,7 @@ Depois de instalar o Node.js, você pode criar um arquivo `main.js` e rodar o co
 
 - [Declarative vs Imperative Programming](https://dev.to/ruizb/declarative-vs-imperative-4a7l)
 - [Modern JS Cheatsheet](https://github.com/mbeaudru/modern-js-cheatsheet)
+- [JavaScript Cheatsheet](https://htmlcheatsheet.com/js)
 - [Node.js](https://nodejs.org)
 - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [JavaScript.info](https://javascript.info)
