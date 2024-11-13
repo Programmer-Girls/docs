@@ -100,6 +100,10 @@ const lista = [1, 2, 3];
 lista.push(4); // [1, 2, 3, 4]
 lista.pop(); // [1, 2, 3]
 
+lista[0]; // 1
+lista[1]; // 2
+lista[2]; // 3
+
 // Desestruturação ou "destructuring"
 const [primeiro, segundo, terceiro] = lista;
 
