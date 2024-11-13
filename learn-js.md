@@ -11,6 +11,13 @@ O jeito mais fácil de rodar JavaScript é apertando F12 no seu navegador, acess
 
 ![rodando js](assets/images/rodando-js.png)
 
+```js
+console.log("Olá, mundo!");
+```
+
+> [!NOTE]
+> `console.log` é uma função que imprime uma mensagem no console do navegador.
+
 ## [Variáveis e Tipos de Dados](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Data_structures)
 
 ### Declaração de Variáveis
@@ -50,9 +57,9 @@ Para checar o tipo de um dado, use a função `typeof`.
 > [!NOTE]
 > Dica da mamãe, não precisa aprender tudo de uma vez, aprenda quando precisar da coisa específica. Só lembre que os tipos existem e quando precisar de algum, aí sim vá ler a documentação oficial.
 
-### Funções
+#### Funções
 
-As funções são parecidas com formulas matemáticas. Você passa um valor para a função e ela retorna um valor. Ou uma forma de bolo, você passa os ingredientes e ela retorna o bolo pronto.
+As funções são parecidas com formulas matemáticas. Você passa 0 ou mais valores para a função e ela retorna um valor. Ou uma forma de bolo, você passa os ingredientes e ela retorna o bolo pronto.
 
 ```js
 // "Declaração de função"
@@ -73,12 +80,65 @@ const boloChocolate = () => "🍫🎂";
 
 const boloCustom = (sabor) => sabor + "🎂";
 
-console.log(soma(1, 2)); // 3
-console.log(bolo()); // 🎂
-console.log(boloChocolate()); // 🍫🎂
-console.log(boloMorango()); // 🍓🎂
-console.log(boloCustom("🍉")); // 🍉🎂
+soma(1, 2); // 3
+bolo(); // 🎂
+boloChocolate(); // 🍫🎂
+boloMorango(); // 🍓🎂
+boloCustom("🍉"); // 🍉🎂
 ```
 
 > [!NOTE]
 > Se quiser saber a diferença entre declaração e expressão de função, procure `js function declaration vs function expression` no Google.
+
+#### Arrays
+
+```js
+const lista = [1, 2, 3];
+
+lista.push(4); // [1, 2, 3, 4]
+lista.pop(); // [1, 2, 3]
+
+// Desestruturação ou "destructuring"
+const [primeiro, segundo, terceiro] = lista;
+
+console.log(primeiro, segundo, terceiro); // 1 2 3
+```
+
+#### Objetos
+
+```js
+const pessoa = {
+  nome: "Alice",
+  idade: 20,
+};
+
+pessoa.idade; // 20
+pessoa.nome; // "Alice"
+
+pessoa.sobrenome = "Silva";
+
+delete pessoa.sobrenome;
+
+// Desestruturação de objetos
+const { nome, idade, sobrenome } = pessoa;
+
+console.log(
+  pessoa,
+  pessoa.nome,
+  nome,
+  idade,
+  sobrenome,
+); // { nome: "Alice", idade: 20 } "Alice" 20 undefined
+```
+
+## [Loops/Iteradores](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration) e [Controle de Fluxo](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling)
+
+### Loops
+
+```js
+for (let i = 0; i < 10; i++) {
+  console.log(i);
+}
+```
+
+### Controle de Fluxo
