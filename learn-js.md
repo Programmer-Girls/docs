@@ -135,6 +135,23 @@ console.log(
 
 ## [Loops/Iteradores](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration) e [Controle de Fluxo](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling)
 
+### Condicionais
+
+```js
+const idade = 17;
+
+if (idade >= 18) {
+  console.log("Você é maior de idade");
+} else {
+  console.log("Você é menor de idade");
+}
+
+// Ternário
+const maiorDeIdade = idade >= 18 ? "Você é maior de idade" : "Você é menor de idade";
+
+console.log(maiorDeIdade); // Você é menor de idade
+```
+
 ### Loops
 
 ```js
@@ -168,6 +185,6 @@ console.log(listaAoQuadrado); // [1, 4, 9]
 > [!NOTE]
 > `for` é considerado um estilo imperativo, você diz como fazer.
 > `forEach` e `map` são considerados estilos declarativos ou funcionais, você diz o que fazer.
-> Eu acho programação funcional muito melhor :3 ~~mas é mais difícil de aprender.~~
+> Programação funcional é muito melhor :3 ~~talvez seja mais difícil de aprender~~.
 
-### Controle de Fluxo
+[Declarative vs Imperative Programming](https://dev.to/ruizb/declarative-vs-imperative-4a7l)
