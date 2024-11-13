@@ -200,6 +200,8 @@ No Node.js, a forma de escrever é a mesma, ainda é JavaScript. A diferença é
 
 O Node.js tem suas próprias funções, como por exemplo, acessar o sistema de arquivos, criar servidores, etc. Sua documentação oficial fica no site [Node.js](https://nodejs.org/en/docs).
 
+Depois de instalar o Node.js, você pode criar um arquivo `main.js` e rodar o comando `node main.js` no terminal para abrir o Node.js e executar códigos JavaScript.
+
 ## Links Úteis
 
 - [Declarative vs Imperative Programming](https://dev.to/ruizb/declarative-vs-imperative-4a7l)
@@ -207,4 +209,5 @@ O Node.js tem suas próprias funções, como por exemplo, acessar o sistema de a
 - [Node.js](https://nodejs.org)
 - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [JavaScript.info](https://javascript.info)
-- [Node Installation](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs)
+- [Node.js Installation](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs)
+- [Node.js Getting Started](https://nodejs.org/docs/latest/api/synopsis.html)
