@@ -6,6 +6,56 @@ Esse guia é um resumo de como funciona um projeto em JavaScript, mais especific
 
 Next.js é um framework React. Escolhemos usar ele porque ele é popular, tem uma comunidade ativa e tem features que serão úteis para o projeto, como [SSG](https://nextjs.org/docs/app/building-your-application/rendering/server-components#static-rendering-default) (Static Site Generation) que nos permite criar páginas estáticas que não precisam de um servidor, assim reduzindo eventuais custos com o Next.js. E caso se torne necessário um servidor, ele também nos permite criar [SSR](https://nextjs.org/docs/app/building-your-application/rendering/server-components#dynamic-rendering) (Server-Side Rendering).
 
+## [Criando um projeto Next.js](https://nextjs.org/docs/app/getting-started/installation)
+
+Essa parte não será necessária para o projeto, porque já temos um projeto criado. Mas é importante saber como criar um projeto Next.js.
+
+```bash
+npx create-next-app@latest
+```
+
+```bash
+What is your project named? my-app
+Would you like to use TypeScript? No / Yes
+Would you like to use ESLint? No / Yes
+Would you like to use Tailwind CSS? No / Yes
+Would you like your code inside a `src/` directory? No / Yes
+Would you like to use App Router? (recommended) No / Yes
+Would you like to use Turbopack for `next dev`?  No / Yes
+Would you like to customize the import alias (`@/*` by default)? No / Yes
+What import alias would you like configured? @/*
+```
+
+```bash
+npm install
+```
+
+> [!IMPORTANT]
+> no nosso projeto, usaremos o [pnpm](https://pnpm.io/) para instalar as dependências.
+>  para instalar o pnpm, use o comando `npm i -g pnpm`.
+
+
+## Instalando o projeto
+
+### 1 - Clonar o repositório
+
+```bash
+git clone https://github.com/Programmer-Girls/progirls.git
+cd progirls
+```
+
+### 2 - Instalar as dependências
+
+```bash
+pnpm install
+```
+
+### 3 - Rodar o projeto
+
+```bash
+pnpm dev
+```
+
 ## Estrutura de arquivos e pastas
 
 ![nextjs](assets/images/nextjs-structure.png)
