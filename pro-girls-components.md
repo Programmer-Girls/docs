@@ -21,7 +21,7 @@
   - button
     - round/fill
 
-## comunidade
+## Comunidade
 
 - heading (encontre as profissionais...)
 - cards/filtro section
@@ -30,7 +30,7 @@
   - filtro component
 - find a progril section
 
-## about us
+## Sobre nós
 
 - heading (sobre nós + textos)
 - visao/missao/valores section
@@ -42,7 +42,7 @@
   - person cards section
     - person card component (loop)
 
-## contact us
+## Contato
 
 - heading (fale conosco)
 - form component
