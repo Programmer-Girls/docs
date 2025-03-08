@@ -23,5 +23,5 @@
 ## Eventos
 
 - [Roteiro Dia da Mulher 2025 - ChatGPT O1 Research](./womensday-script-1.md)
-- [Roteiro Dia da Mulher 2025 - Google Gemini](./womensday-script-2.md)
+- [Roteiro Dia da Mulher 2025 - Google Gemini 2.0 Flash Thinking Experimental](./womensday-script-2.md)
 - [Roteiro Dia da Mulher 2025 - DeepSeek](./womensday-script-3.md)
