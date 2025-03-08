@@ -22,6 +22,6 @@
 
 ## Eventos
 
-- [Dia Internacional das Mulheres em TI - ChatGPT O1 Research](./womensday-script-1.md)
-- [Dia Internacional das Mulheres em TI - Google Gemini](./womensday-script-2.md)
-- [Dia Internacional das Mulheres em TI - DeepSeek](./womensday-script-3.md)
+- [Roteiro Dia da Mulher 2025 - ChatGPT O1 Research](./womensday-script-1.md)
+- [Roteiro Dia da Mulher 2025 - Google Gemini](./womensday-script-2.md)
+- [Roteiro Dia da Mulher 2025 - DeepSeek](./womensday-script-3.md)
