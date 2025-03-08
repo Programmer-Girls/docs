@@ -20,5 +20,8 @@
 - [Como funciona um projeto em JavaScript (Next.js)](./learn-js-project.md)
 - [Pro Girls Components](./pro-girls-components.md)
 
+## Eventos
 
-
+- [Dia Internacional das Mulheres em TI - ChatGPT O1 Research](./womensday-script-1.md)
+- [Dia Internacional das Mulheres em TI - Google Gemini](./womensday-script-2.md)
+- [Dia Internacional das Mulheres em TI - DeepSeek](./womensday-script-3.md)
